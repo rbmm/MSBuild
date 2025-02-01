@@ -10,13 +10,9 @@
     <IncludePath>$(INC_ROOT)shared;$(INC_ROOT)km;$(INC_ROOT)um;$(INC_ROOT)km\crt</IncludePath>
     <LibraryPath>$(LIB_ROOT)km\arm64;$(LIB_ROOT)um\arm64;$(LIB_ROOT)ucrt\arm64</LibraryPath>
     <IntDir>$(SolutionDir)tmp\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
-    <ExcludePath>
-    </ExcludePath>
-    <ReferencePath />
-    <LibraryWPath />
-    <SourcePath />
     <EmbedManifest>false</EmbedManifest>
     <GenerateManifest>false</GenerateManifest>
+    <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <Link>
